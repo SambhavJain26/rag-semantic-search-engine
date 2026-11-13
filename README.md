@@ -4,7 +4,6 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![LangChain](https://img.shields.io/badge/LangChain-v0.2+-green.svg)](https://www.langchain.com/)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_Store-orange.svg)](https://www.trychroma.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
 > A hybrid Retrieval-Augmented Generation (RAG) system combining semantic vector search over corporate knowledge bases with deterministic mathematical computation and multi-tier lexical tooling.
 
@@ -168,6 +167,7 @@ The web interface will be accessible at: `http://localhost:5000`
 
 ---
 
-## License
+## Authorship & Project Metadata
 
-This project is licensed under the MIT License: see the [LICENSE](LICENSE) file for details.
+- **Lead Engineer & Architect**: Sambhav Jain
+- **Project Domain**: Semantic RAG & Vocabulary Search Infrastructure
