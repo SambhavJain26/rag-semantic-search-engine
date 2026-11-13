@@ -15,7 +15,7 @@ Generic LLMs fail unpredictably when deployed in enterprise domains requiring ex
 
 ### Key Metrics & Operational Outcomes
 * **100% Deterministic Mathematical Precision**: Symbolic algebra and unit conversions executed via SymPy, eliminating arithmetic hallucination across all queries.
-* **80% Latency & Token Cost Reduction for Utilities**: Mathematical and dictionary queries resolved in under 120ms without invoking expensive frontier LLM completion tokens.
+* **Zero-Token Local Execution for Arithmetic**: Mathematical calculations resolved instantly via local evaluation without invoking expensive LLM completion tokens.
 * **Zero Hallucination across Enterprise Knowledge Base**: 100% of domain policy answers grounded in verified Markdown documentation with source file attribution.
 
 ---

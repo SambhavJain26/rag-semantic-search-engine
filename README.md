@@ -155,7 +155,7 @@ The web interface will be accessible at: `http://localhost:5000`
 
 1. **Deterministic Tools vs Autonomous Agent Tool-Calling**:
    - *Decision*: Route mathematical and definition queries deterministically via regex classifiers rather than incurring LLM tool-calling tokens on every prompt.
-   - *Trade-off*: Reduces latency by 80% and eliminates LLM invocation cost for standard math, with minor loss in natural-language flexibility for ambiguous mixed queries.
+   - *Trade-off*: Avoids an LLM call for maths questions and eliminates LLM invocation cost for standard arithmetic, with minor loss in natural-language flexibility for ambiguous mixed queries.
 
 2. **ChromaDB vs In-Memory FAISS**:
    - *Decision*: ChromaDB was chosen for persistent vector storage and native metadata filtering by document category (`company` vs `products`).
